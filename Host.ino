@@ -2,7 +2,7 @@
 #include <WiFiUdp.h>//Biblioteca do UDP.
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>//Biblioteca para WebServer
-
+//Site de referencia https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
 ESP8266WebServer server(80);
 WiFiUDP udp;//Cria um objeto da classe UDP.
 String req = "";
